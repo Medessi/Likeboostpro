@@ -1,0 +1,123 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LikeBoost Pro - Optimisez votre présence sur les réseaux sociaux</title>
+  <meta name="description" content="LikeBoost Pro vous aide à améliorer votre visibilité et à développer votre présence sur les réseaux sociaux grâce à des outils d'optimisation performants et des analyses approfondies.">
+  <meta name="keywords" content="LikeBoost, optimisation réseaux sociaux, visibilité en ligne, augmenter abonnés, engagement social, outils de gestion réseaux sociaux, social media growth">
+  <meta name="author" content="LikeBoost Pro Team">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#007BFF">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LikeBoost Pro - Optimisez votre présence sur les réseaux sociaux">
+  <meta property="og:description" content="Améliorez votre visibilité sur les réseaux sociaux avec LikeBoost Pro, l'outil idéal pour optimiser votre présence en ligne et booster votre audience.">
+  <meta property="og:image" content="URL_DE_VOTRE_LOGO.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://votre-site.com">
+  <meta property="og:site_name" content="LikeBoost Pro">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LikeBoost Pro - Optimisez votre présence sur les réseaux sociaux">
+  <meta name="twitter:description" content="Développez votre audience et améliorez votre visibilité sur les réseaux sociaux avec LikeBoost Pro.">
+  <meta name="twitter:image" content="URL_DE_VOTRE_LOGO.png">
+  <meta name="twitter:site" content="@LikeBoostPro">
+  <meta name="twitter:creator" content="@LikeBoostPro">
+
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  <meta name="apple-mobile-web-app-title" content="LikeBoost Pro">
+  <meta name="application-name" content="LikeBoost Pro">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://votre-site.com">
+
+  <!-- Preconnect and DNS Prefetch for performance -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="header">
+      LikeBoost Pro
+    </div>
+    <div class="content">
+      <div class="auto-boost-info">
+        <h3>Boostez automatiquement votre visibilité !</h3>
+        <p>Avec LikeBoost Pro, vos likes augmentent de 90 toutes les 5 minutes, sans effort de votre part. Optimisez votre présence sur les réseaux sociaux et atteignez de nouveaux sommets !</p>
+        <ul class="features-list">
+          <li>Croissance organique simulée</li>
+          <li>Augmentation régulière et naturelle</li>
+          <li>Boost de votre crédibilité en ligne</li>
+          <li>Atteignez un public plus large</li>
+        </ul>
+        <div id="next-boost-info">Prochain boost dans : 5:00</div>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="boost-progress-bar"></div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post-header">
+          <img src="https://websimengine.com/facebook-like-booster-app/profile-pic.jpg" alt="Photo de profil de John Doe" class="profile-pic">
+          <div class="post-info">
+            <div class="post-author">John Doe</div>
+            <div class="post-time">Il y a 2 heures</div>
+          </div>
+        </div>
+        <div class="post-content">
+          🚀 Incroyable ! Notre nouveau produit révolutionnaire est enfin disponible ! 🎉 Likez, commentez et partagez pour participer à notre concours exclusif et tenter de remporter ce produit gratuitement ! 💯 #InnovationTechnologique #ConcoursExclusif
+        </div>
+        <img src="https://websimengine.com/facebook-like-booster-app/product-image.jpg" alt="Image du nouveau produit innovant" class="post-image">
+        <div class="post-actions">
+          <button class="action-button like-button" onclick="toggleLike()">
+            <i class="fas fa-thumbs-up"></i> J'aime
+          </button>
+          <button class="action-button">
+            <i class="fas fa-comment"></i> Commenter
+          </button>
+          <button class="action-button">
+            <i class="fas fa-share"></i> Partager
+          </button>
+        </div>
+      </div>
+    </div>
+<div class="boost-controls">
+      <div class="boost-input">
+        <input type="number" id="boost-amount" min="20" max="100" value="100" placeholder="Nombre de likes">
+        <button id="boost-button" onclick="boost()">Booster</button>
+      </div>
+      <div class="boost-stats">
+        <span id="like-count">1000 J'aime</span>
+        <span id="boost-count">0 Boosts</span>
+      </div>
+    </div>
+
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup fade-in">
+      <h2>Connectez-vous pour continuer</h2>
+      <p>Pour profiter pleinement de LikeBoost Pro et booster vos likes, veuillez vous connecter à votre compte.</p>
+      <button class="popup-button" onclick="redirectToLogin()">Se connecter</button>
+    </div>
+  </div>
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
